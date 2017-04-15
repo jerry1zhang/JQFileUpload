@@ -9,7 +9,7 @@ html
     <div><img id="preview"></div>
 
 js 
-
+ 
     $('#filebtn').fileUpload({
         url:'/upload',
         type:'POST',
@@ -45,3 +45,4 @@ js
         }
     });
 
+You can view the demo here : [https://pimaweichai.github.io/jqFileUpload/demo/demo.html](https://pimaweichai.github.io/jqFileUpload/demo/demo.html)
