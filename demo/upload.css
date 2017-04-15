@@ -1,0 +1,25 @@
+.dragOver{
+    box-shadow:0px 0px 10px 10px #DEDEDE;
+}
+
+#filebtn{
+    width:150px;
+    height:150px;
+    border-radius:150px;
+    background:#00B7FF;
+    text-align: center;
+    line-height: 150px;
+    margin:20px auto;
+}
+#filebtn:hover{
+    cursor:pointer;
+    box-shadow:0px 0px 10px 10px #DEDEDE;
+}
+#preview{
+    display:block;
+    margin:20px auto;
+}
+#progress{
+    display:block;
+    margin:20px auto;
+}
