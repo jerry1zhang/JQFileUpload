@@ -1,24 +1,34 @@
+
+/*you can modify the style by yourself according to your project*/
+
+/*when dragable is true,the style is for the emelement which the file will drag over*/
 .dragOver{
     box-shadow:0px 0px 10px 10px #DEDEDE;
 }
 
+/*file upload btn style*/
 #filebtn{
     width:150px;
     height:150px;
     border-radius:150px;
-    background:#00B7FF;
+    background:lightgreen;
     text-align: center;
     line-height: 150px;
     margin:20px auto;
 }
+
 #filebtn:hover{
     cursor:pointer;
     box-shadow:0px 0px 10px 10px #DEDEDE;
 }
+
+/* proview element style */
 #preview{
     display:block;
     margin:20px auto;
 }
+
+/* progress element style */
 #progress{
     display:block;
     margin:20px auto;
